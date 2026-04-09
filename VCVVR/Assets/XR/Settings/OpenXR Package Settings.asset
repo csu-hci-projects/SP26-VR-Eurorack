@@ -62,7 +62,7 @@ MonoBehaviour:
   nameUi: 'Android XR: AR Anchor'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-androidxr-anchor
-  openxrExtensionStrings: XR_ANDROID_trackables
+  openxrExtensionStrings: XR_ANDROID_trackables XR_ANDROID_device_anchor_persistence
   company: Unity Technologies
   priority: 0
   targetOpenXRApiVersion: 
@@ -588,7 +588,7 @@ MonoBehaviour:
   nameUi: 'Android XR: AR Anchor'
   version: 0.1.0
   featureIdInternal: com.unity.openxr.feature.arfoundation-androidxr-anchor
-  openxrExtensionStrings: XR_ANDROID_trackables
+  openxrExtensionStrings: XR_ANDROID_trackables XR_ANDROID_device_anchor_persistence
   company: Unity Technologies
   priority: 0
   targetOpenXRApiVersion: 
@@ -736,18 +736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 6983060049515371331}
-  - {fileID: 7594532246155819303}
-  - {fileID: 6978441204456351849}
   - {fileID: -8352124348596637976}
-  - {fileID: -3039491849745817364}
-  - {fileID: -5243102652119717489}
-  - {fileID: -2260327580910225057}
   - {fileID: -4500112468198193086}
-  - {fileID: -7490877876430896108}
-  - {fileID: -7782684901073509681}
-  - {fileID: 8607875717444804296}
-  - {fileID: 7609077890423460561}
-  - {fileID: -9176471901708020532}
   - {fileID: -7539106409127789423}
   - {fileID: -6279212148996162835}
   - {fileID: -3975452482949505274}
@@ -1832,8 +1822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 2109802480353105152}
-  - {fileID: -2503164571000646319}
-  - {fileID: 6565543631044782832}
+  - {fileID: 484161490036689224}
+  - {fileID: -3688430105879480005}
   - {fileID: -4954635989753619146}
   - {fileID: -6862048736271866698}
   - {fileID: 8023257435433845108}
@@ -1844,7 +1834,7 @@ MonoBehaviour:
   - {fileID: -5845654046722453021}
   - {fileID: -7340524804024996456}
   - {fileID: 274347273564094617}
-  - {fileID: 7373901375122006305}
+  - {fileID: -694691595379029039}
   - {fileID: 3882098992219113015}
   - {fileID: 644633937268213429}
   - {fileID: 55844540160941995}
