@@ -328,7 +328,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221059523}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 31.578693}
+  m_LocalPosition: {x: 0, y: 0, z: -34}
   m_LocalScale: {x: 0.15172559, y: 0.27708074, z: 0.42999998}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -337,7 +337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -40.85331}
+  m_AnchoredPosition: {x: 0, y: -42.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!61 &221059525
@@ -1043,7 +1043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &387647319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1543,7 +1543,7 @@ Transform:
   m_GameObject: {fileID: 535144171}
   serializedVersion: 2
   m_LocalRotation: {x: -0.1034794, y: -0, z: -0, w: 0.9946316}
-  m_LocalPosition: {x: -2.7, y: -1.8, z: 24}
+  m_LocalPosition: {x: -2.7, y: 0.5, z: -37}
   m_LocalScale: {x: 2.373733, y: 4.5023236, z: 27.158236}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1771,15 +1771,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571026969}
   m_LocalRotation: {x: 0.027821535, y: -0, z: -0, w: 0.9996129}
-  m_LocalPosition: {x: 0, y: 0, z: 65}
-  m_LocalScale: {x: 0.29697463, y: 0.64450884, z: 0.9912084}
+  m_LocalPosition: {x: 0, y: 0, z: 58}
+  m_LocalScale: {x: 0.29697463, y: 0.6275365, z: 0.9912084}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 106980690}
   m_LocalEulerAnglesHint: {x: 3.189, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.64, y: -29.4}
+  m_AnchoredPosition: {x: 21.64, y: -25.3}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571026971
@@ -1869,7 +1869,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -5.9717255, y: 0, z: 156.71147, w: 0}
+  m_margin: {x: -5.9717255, y: 0, z: 156.71147, w: 26.278694}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4544,7 +4544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.517
+      value: -10.924
       objectReference: {fileID: 0}
     - target: {fileID: 8806329115733545878, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
       propertyPath: m_LocalRotation.w
