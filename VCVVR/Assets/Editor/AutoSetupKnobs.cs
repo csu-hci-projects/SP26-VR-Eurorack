@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEditor;
 
-
 public class AutoSetupKnobs : EditorWindow
 {
     [MenuItem("Tools/Eurorack/Auto‑Setup Knobs (KnobReporter)")]
@@ -13,11 +12,8 @@ public class AutoSetupKnobs : EditorWindow
     void OnGUI()
     {
         GUILayout.Label("Auto‑Configure Selected Knobs (KnobReporter)", EditorStyles.boldLabel);
-
         if (GUILayout.Button("Setup Selected Knobs"))
-        {
             SetupKnobs();
-        }
     }
 
     void SetupKnobs()
@@ -26,26 +22,24 @@ public class AutoSetupKnobs : EditorWindow
         {
             Undo.RegisterCompleteObjectUndo(obj, "Setup Knob");
 
-            // 1. Collider (so it can be grabbed)
+            // 1. Collider
             Collider col = obj.GetComponent<Collider>();
             if (col == null)
                 col = obj.AddComponent<SphereCollider>();
             col.isTrigger = false;
 
-            // 2. Rigidbody (required for XR interaction)
+            // 2. Rigidbody
             Rigidbody rb = obj.GetComponent<Rigidbody>();
             if (rb == null)
                 rb = obj.AddComponent<Rigidbody>();
             rb.useGravity = false;
             rb.mass = 0.05f;
-            rb.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation; 
-            // physics won't move it; we rotate visual only
+            rb.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation;
 
             // 3. XRGrabInteractable
-            UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab = obj.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
+            var grab = obj.GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
             if (grab == null)
                 grab = obj.AddComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
-
             grab.trackPosition = false;
             grab.trackRotation = false;
             grab.movementType = UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable.MovementType.Kinematic;
@@ -55,21 +49,29 @@ public class AutoSetupKnobs : EditorWindow
             if (reporter == null)
                 reporter = obj.AddComponent<KnobReporter>();
 
-            // 5. Auto‑assign knobVisual (first child)
-            if (obj.transform.childCount > 0)
-            {
-                reporter.knobVisual = obj.transform.GetChild(0);
-            }
-            else
-            {
-                Debug.LogWarning($"{obj.name} has no child to use as knobVisual.");
-            }
+            // 5. Assign fields via SerializedObject so Unity serializes + tracks undo
+            SerializedObject so = new SerializedObject(reporter);
+            so.Update();
 
-            // Optional: default ~300° total range
-            reporter.minAngle = -150f;
-            reporter.maxAngle = 150f;
+            // knobVisual — self if no children, else first child
+            Transform visual = obj.transform.childCount > 0
+                ? obj.transform.GetChild(0)
+                : obj.transform;          // fallback: rotate the root itself
 
-            Debug.Log($"[Knob Setup] {obj.name} configured with KnobReporter.");
+            if (obj.transform.childCount == 0)
+                Debug.LogWarning($"{obj.name} has no child — knobVisual set to root transform.");
+
+            so.FindProperty("knobVisual").objectReferenceValue = visual;
+            so.FindProperty("minAngle").floatValue = -150f;
+            so.FindProperty("maxAngle").floatValue = 150f;
+
+            // localTwistAxis default (forward = Z)
+            so.FindProperty("localTwistAxis").vector3Value = Vector3.forward;
+
+            so.ApplyModifiedProperties();          // writes + marks dirty in one call
+            EditorUtility.SetDirty(reporter);      // belt-and-suspenders for prefab scenes
+
+            Debug.Log($"[Knob Setup] {obj.name} → knobVisual = {visual.name}");
         }
     }
 }
