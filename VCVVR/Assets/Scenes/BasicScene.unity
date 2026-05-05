@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &83751730 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &227692493
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +784,148 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1233639308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 83751730}
+    m_Modifications:
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 4.5915947
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 4.59191
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[2].x
+      value: 4.5922246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[3].x
+      value: 4.59254
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[4].x
+      value: 4.592855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[5].x
+      value: 4.5931697
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[6].x
+      value: 4.593485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[7].x
+      value: 4.5937996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[8].x
+      value: 4.594115
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[9].x
+      value: 4.59443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[10].x
+      value: 4.5947447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[11].x
+      value: 4.59506
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[12].x
+      value: 4.595375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[13].x
+      value: 4.59569
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[14].x
+      value: 4.596005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[15].x
+      value: 4.5963197
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[16].x
+      value: 4.596635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[17].x
+      value: 4.59695
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[18].x
+      value: 4.597265
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[19].x
+      value: 4.59758
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265179313822690474, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Name
+      value: Wire+ (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.928
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.032999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.26057005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+--- !u!4 &1233639309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+  m_PrefabInstance: {fileID: 1233639308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1276354807
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,6 +1023,290 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &1683815613
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 83751730}
+    m_Modifications:
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 4.5265946
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 4.52691
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[2].x
+      value: 4.5272245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[3].x
+      value: 4.5275397
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[4].x
+      value: 4.527855
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[5].x
+      value: 4.5281696
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[6].x
+      value: 4.528485
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[7].x
+      value: 4.5287995
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[8].x
+      value: 4.5291147
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[9].x
+      value: 4.52943
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[10].x
+      value: 4.5297446
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[11].x
+      value: 4.53006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[12].x
+      value: 4.530375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[13].x
+      value: 4.5306897
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[14].x
+      value: 4.531005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[15].x
+      value: 4.5313196
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[16].x
+      value: 4.531635
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[17].x
+      value: 4.53195
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[18].x
+      value: 4.5322647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[19].x
+      value: 4.53258
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265179313822690474, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Name
+      value: Wire+ (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.863
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.032999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.26057005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+--- !u!4 &1683815614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+  m_PrefabInstance: {fileID: 1683815613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1856424678
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 83751730}
+    m_Modifications:
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[0].x
+      value: 4.5555944
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[1].x
+      value: 4.5559096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[2].x
+      value: 4.5562243
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[3].x
+      value: 4.5565395
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[4].x
+      value: 4.5568547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[5].x
+      value: 4.5571694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[6].x
+      value: 4.5574846
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[7].x
+      value: 4.5577993
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[8].x
+      value: 4.5581145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[9].x
+      value: 4.5584297
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[10].x
+      value: 4.5587444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[11].x
+      value: 4.5590596
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[12].x
+      value: 4.559375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[13].x
+      value: 4.5596895
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[14].x
+      value: 4.5600047
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[15].x
+      value: 4.5603194
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[16].x
+      value: 4.5606346
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[17].x
+      value: 4.56095
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[18].x
+      value: 4.5612645
+      objectReference: {fileID: 0}
+    - target: {fileID: 4112584474675340050, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Positions.Array.data[19].x
+      value: 4.5615797
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265179313822690474, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_Name
+      value: Wire+ (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.892
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.032999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.26057005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+--- !u!4 &1856424679 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8788775115597723152, guid: d7910076f132c4240afe4227b16eee19, type: 3}
+  m_PrefabInstance: {fileID: 1856424678}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1956614489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1137,6 +1568,142 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 216518368100041545, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 624632776500942392, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 653592510930124509, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
+    - target: {fileID: 674533704808733695, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      objectReference: {fileID: 0}
+    - target: {fileID: 713618835162316199, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      objectReference: {fileID: 0}
+    - target: {fileID: 825438822020876275, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      objectReference: {fileID: 0}
+    - target: {fileID: 915845636132901033, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).026
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188945576503539637, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203437565824020488, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1286343293083906464, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384910132445570904, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).027
+      objectReference: {fileID: 0}
+    - target: {fileID: 1541044713366378944, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664331750280905780, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706828338547005923, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).028
+      objectReference: {fileID: 0}
+    - target: {fileID: 1794097245245756048, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).022
+      objectReference: {fileID: 0}
+    - target: {fileID: 1834921759581311468, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).030
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088888884271419168, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      objectReference: {fileID: 0}
+    - target: {fileID: 2210397783172884820, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2248407517818271165, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
+    - target: {fileID: 2266259067306937510, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      objectReference: {fileID: 0}
+    - target: {fileID: 2282795435506915781, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489417375844752861, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).024
+      objectReference: {fileID: 0}
+    - target: {fileID: 2574199099835855231, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).020
+      objectReference: {fileID: 0}
+    - target: {fileID: 2650896360052989946, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).022
+      objectReference: {fileID: 0}
+    - target: {fileID: 2698756750451534302, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702020327717281202, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).009
+      objectReference: {fileID: 0}
+    - target: {fileID: 2723396879989008837, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
+    - target: {fileID: 2908041784614461066, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919076239287860669, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
+    - target: {fileID: 3127287742831148476, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148279441659352146, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778112532092995814, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3852724202519321453, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      objectReference: {fileID: 0}
+    - target: {fileID: 3958458985292188278, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
     - target: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.66478
@@ -1177,13 +1744,246 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4363815835114474802, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566414956911838855, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633373831160476258, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651648458094917034, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668866267022249326, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715085380801183532, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785628134871512397, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823266374833027218, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934433202301431165, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5013729613534207894, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057608645006607583, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5129028540240666637, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133803234082423049, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5165080953764537022, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266338585999888896, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5360195406742145898, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5517867919702071688, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).020
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521287181285723353, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).026
+      objectReference: {fileID: 0}
+    - target: {fileID: 5523818665519042638, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5554856892631304579, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      objectReference: {fileID: 0}
+    - target: {fileID: 5591171966531593600, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      objectReference: {fileID: 0}
     - target: {fileID: 5614572267097629466, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
       value: EuroRack
       objectReference: {fileID: 0}
+    - target: {fileID: 5679335952420192162, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      objectReference: {fileID: 0}
+    - target: {fileID: 5712010575307629570, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      objectReference: {fileID: 0}
+    - target: {fileID: 5738059383206484678, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      objectReference: {fileID: 0}
+    - target: {fileID: 5812807936793309298, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      objectReference: {fileID: 0}
+    - target: {fileID: 5888305256149018188, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5935948617691994125, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345767926130687420, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6534591631455209603, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733929982265877448, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      objectReference: {fileID: 0}
+    - target: {fileID: 6745186115840549801, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).023
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882375860823420031, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935383294946961450, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).025
+      objectReference: {fileID: 0}
+    - target: {fileID: 7017353364593814815, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152694986743823154, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      objectReference: {fileID: 0}
+    - target: {fileID: 7227964502555639139, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7419957818613230325, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).027
+      objectReference: {fileID: 0}
+    - target: {fileID: 7422978768452057646, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657360516748424691, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878960169093448993, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).009
+      objectReference: {fileID: 0}
+    - target: {fileID: 7919231056038429091, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).023
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940210175842804459, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      objectReference: {fileID: 0}
+    - target: {fileID: 7960852681038025341, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8005546009039316605, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055693295166610991, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317751006478865464, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8408443135640318883, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).021
+      objectReference: {fileID: 0}
+    - target: {fileID: 8489936958964237759, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8493320562567427548, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).031
+      objectReference: {fileID: 0}
+    - target: {fileID: 8642997863606065813, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      objectReference: {fileID: 0}
+    - target: {fileID: 8717878152531804770, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771519581329592767, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).021
+      objectReference: {fileID: 0}
+    - target: {fileID: 8858377703782272287, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      objectReference: {fileID: 0}
+    - target: {fileID: 8976021410095632950, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8989745685655614873, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).024
+      objectReference: {fileID: 0}
+    - target: {fileID: 9162588504646352676, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: slotId
+      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1856424679}
+    - targetCorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1683815614}
+    - targetCorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1233639309}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8430552176064743235, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       insertIndex: -1
