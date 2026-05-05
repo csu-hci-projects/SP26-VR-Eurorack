@@ -1,0 +1,1307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6372083621635416970
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.9641
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3161
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7016
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9945219
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.10452846
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      propertyPath: m_Name
+      value: Oscillator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5253250143605060388, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4496859760234198354}
+    - targetCorrespondingSourceObject: {fileID: 5253250143605060388, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3311930077333243313}
+    - targetCorrespondingSourceObject: {fileID: 5253250143605060388, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6486949363649549156}
+    - targetCorrespondingSourceObject: {fileID: 6640112663692161591, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4082894380154628288}
+    - targetCorrespondingSourceObject: {fileID: 6640112663692161591, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7221113440347292104}
+    - targetCorrespondingSourceObject: {fileID: 6640112663692161591, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4917459077720156821}
+    - targetCorrespondingSourceObject: {fileID: 7031593861396910118, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7988635204672797662}
+    - targetCorrespondingSourceObject: {fileID: 7031593861396910118, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3370386474878638911}
+    - targetCorrespondingSourceObject: {fileID: 7031593861396910118, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5340725946862284325}
+    - targetCorrespondingSourceObject: {fileID: 4893604414224682821, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6932347927199973315}
+    - targetCorrespondingSourceObject: {fileID: 4893604414224682821, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 838017021921467445}
+    - targetCorrespondingSourceObject: {fileID: 4893604414224682821, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6773444515989729922}
+    - targetCorrespondingSourceObject: {fileID: -2757766824927139973, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6950190644088129240}
+    - targetCorrespondingSourceObject: {fileID: -2757766824927139973, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9116587769369321444}
+    - targetCorrespondingSourceObject: {fileID: -2757766824927139973, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 330291548228829989}
+    - targetCorrespondingSourceObject: {fileID: -1682768025648921609, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2482871701696948662}
+    - targetCorrespondingSourceObject: {fileID: -1682768025648921609, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2948918416023613387}
+    - targetCorrespondingSourceObject: {fileID: -1682768025648921609, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7436952181212119122}
+    - targetCorrespondingSourceObject: {fileID: 3526417962040671298, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2036802675292401996}
+    - targetCorrespondingSourceObject: {fileID: 3526417962040671298, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6364278985721438670}
+    - targetCorrespondingSourceObject: {fileID: 3526417962040671298, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2231565892297022425}
+    - targetCorrespondingSourceObject: {fileID: 5427624529859084891, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2343080641803920897}
+    - targetCorrespondingSourceObject: {fileID: 5427624529859084891, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3679654471251279506}
+    - targetCorrespondingSourceObject: {fileID: 5427624529859084891, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8485305338405260712}
+    - targetCorrespondingSourceObject: {fileID: 8848368830449464035, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1240209643247380629}
+    - targetCorrespondingSourceObject: {fileID: 8848368830449464035, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1113974696210848238}
+    - targetCorrespondingSourceObject: {fileID: 8848368830449464035, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2998493751253392648}
+    - targetCorrespondingSourceObject: {fileID: 5306799019531854532, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7204191856954557790}
+    - targetCorrespondingSourceObject: {fileID: 5306799019531854532, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3425441966483583216}
+    - targetCorrespondingSourceObject: {fileID: 5306799019531854532, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7656212870847454761}
+    - targetCorrespondingSourceObject: {fileID: 7464150497294269709, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6080154915272488898}
+    - targetCorrespondingSourceObject: {fileID: 7464150497294269709, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2081187176717210706}
+    - targetCorrespondingSourceObject: {fileID: 7464150497294269709, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3966459517770094510}
+    - targetCorrespondingSourceObject: {fileID: -8359805575425735787, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2713664498839552765}
+    - targetCorrespondingSourceObject: {fileID: -8359805575425735787, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4999210072366118293}
+    - targetCorrespondingSourceObject: {fileID: -8359805575425735787, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 855610211381230360}
+    - targetCorrespondingSourceObject: {fileID: -5699931941173594171, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8565881129283614681}
+    - targetCorrespondingSourceObject: {fileID: -5699931941173594171, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6185949255502216119}
+    - targetCorrespondingSourceObject: {fileID: -5699931941173594171, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3649921968236829699}
+  m_SourcePrefab: {fileID: 100100000, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+--- !u!1 &131802736885073137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2757766824927139973, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6950190644088129240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131802736885073137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).011
+--- !u!114 &9116587769369321444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131802736885073137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &330291548228829989
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131802736885073137}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 5.711618e-10, z: -0.000021231084}
+--- !u!1 &308596640256119229 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6640112663692161591, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4082894380154628288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308596640256119229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).005
+--- !u!114 &7221113440347292104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308596640256119229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &4917459077720156821
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308596640256119229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 0.000000002433807, z: -0.000021232481}
+--- !u!1 &1191619259792396462 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5253250143605060388, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4496859760234198354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191619259792396462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).004
+--- !u!114 &3311930077333243313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191619259792396462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &6486949363649549156
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191619259792396462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 0.000000002433807, z: -0.000021232481}
+--- !u!1 &1282322875595850062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5306799019531854532, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7204191856954557790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282322875595850062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).016
+--- !u!114 &3425441966483583216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282322875595850062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &7656212870847454761
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282322875595850062}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 0.000000002433807, z: -0.00002123155}
+--- !u!1 &1386259363078562257 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5427624529859084891, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2343080641803920897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386259363078562257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).014
+--- !u!114 &3679654471251279506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386259363078562257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &8485305338405260712
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386259363078562257}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 0.000000002433807, z: -0.000021232016}
+--- !u!1 &1983733392139398351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4893604414224682821, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6932347927199973315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983733392139398351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).010
+--- !u!114 &838017021921467445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983733392139398351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &6773444515989729922
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983733392139398351}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 5.711618e-10, z: -0.000021231084}
+--- !u!1 &2496552034543456617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8848368830449464035, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1240209643247380629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496552034543456617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).015
+--- !u!114 &1113974696210848238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496552034543456617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &2998493751253392648
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496552034543456617}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 0.000000002433807, z: -0.000021232016}
+--- !u!1 &3516092150253510781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1682768025648921609, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2482871701696948662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516092150253510781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).012
+--- !u!114 &2948918416023613387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516092150253510781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &7436952181212119122
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516092150253510781}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 5.711618e-10, z: -0.000021231084}
+--- !u!1 &4177947474499515308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7031593861396910118, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7988635204672797662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177947474499515308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).006
+--- !u!114 &3370386474878638911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177947474499515308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &5340725946862284325
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4177947474499515308}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 0.000000002433807, z: -0.000021232481}
+--- !u!1 &4610504179120496263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7464150497294269709, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6080154915272488898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610504179120496263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).017
+--- !u!114 &2081187176717210706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610504179120496263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &3966459517770094510
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4610504179120496263}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 0.000000002433807, z: -0.00002123155}
+--- !u!1 &6021929888724983839 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8359805575425735787, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2713664498839552765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021929888724983839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).018
+--- !u!114 &4999210072366118293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021929888724983839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &855610211381230360
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6021929888724983839}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 0.000000002433807, z: -0.00002123155}
+--- !u!1 &7533385635111375951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5699931941173594171, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8565881129283614681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533385635111375951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).019
+--- !u!114 &6185949255502216119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533385635111375951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &3649921968236829699
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7533385635111375951}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: -1.8189894e-11, y: 5.711618e-10, z: -0.000021232016}
+--- !u!1 &7538579619014008776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3526417962040671298, guid: a9888268205e1d340979eb1b3e40da2b, type: 3}
+  m_PrefabInstance: {fileID: 6372083621635416970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2036802675292401996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538579619014008776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
+  slotId: OSCILLATOR_MINIJACK 3.5(INSIDE).013
+--- !u!114 &6364278985721438670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538579619014008776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor
+  m_InteractionManager: {fileID: 0}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_Handedness: 0
+  m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
+  m_DisableVisualsWhenBlockedInGroup: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingTargetFilter: {fileID: 0}
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+  m_HoverSocketSnapping: 0
+  m_SocketSnappingRadius: 0.1
+  m_SocketScaleMode: 0
+  m_FixedScale: {x: 1, y: 1, z: 1}
+  m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+--- !u!135 &2231565892297022425
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7538579619014008776}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.00009897789
+  m_Center: {x: 0.0000000037071004, y: 0.000000002433807, z: -0.000021232016}
