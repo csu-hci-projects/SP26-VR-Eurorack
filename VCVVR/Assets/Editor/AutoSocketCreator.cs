@@ -70,38 +70,42 @@ public class AutoSocketCreator : EditorWindow
         }
     }
 
-    void TryAssignJack(GameObject obj)
+void TryAssignJack(GameObject obj)
+{
+    foreach (Transform t in obj.GetComponentsInChildren<Transform>(includeInactive: true))
     {
-        // Search the object and all children for a name matching Jack_M{n}_P{n}_{In|Out}
-        foreach (Transform t in obj.GetComponentsInChildren<Transform>(includeInactive: true))
+        Match m = JackNamePattern.Match(t.gameObject.name);
+        if (!m.Success) continue;
+
+        Jack jack = t.gameObject.GetComponent<Jack>();
+        if (jack == null)
         {
-            Match m = JackNamePattern.Match(t.gameObject.name);
-            if (!m.Success) continue;
-
-            Jack jack = t.gameObject.GetComponent<Jack>();
-            if (jack == null)
-            {
-                Undo.RegisterCompleteObjectUndo(t.gameObject, "Add Jack Component");
-                jack = t.gameObject.AddComponent<Jack>();
-            }
-
-            var jackSo = new SerializedObject(jack);
-            jackSo.Update();
-            jackSo.FindProperty("moduleId").intValue  = int.Parse(m.Groups[1].Value);
-            jackSo.FindProperty("portId").intValue    = int.Parse(m.Groups[2].Value);
-            jackSo.FindProperty("isOutput").boolValue =
-                m.Groups[3].Value.Equals("Out", StringComparison.OrdinalIgnoreCase);
-            jackSo.ApplyModifiedProperties();
-
-            EditorUtility.SetDirty(t.gameObject);
-            Debug.Log($"[Socket Creator] Jack assigned on '{t.gameObject.name}': " +
-                      $"M{jack.moduleId} P{jack.portId} {(jack.isOutput ? "Out" : "In")}");
-            return; // one Jack per socket object is expected
+            Undo.RegisterCompleteObjectUndo(t.gameObject, "Add Jack Component");
+            jack = t.gameObject.AddComponent<Jack>();
         }
 
-        // No match found — warn if the object name looks like it should have one
-        if (obj.name.StartsWith("Jack", System.StringComparison.OrdinalIgnoreCase))
-            Debug.LogWarning($"[Socket Creator] '{obj.name}' looks like a Jack but didn't match " +
-                             $"pattern Jack_M{{n}}_P{{n}}_{{In|Out}} — skipping.");
+        var jackSo = new SerializedObject(jack);
+        jackSo.Update();
+        jackSo.FindProperty("moduleId").intValue  = int.Parse(m.Groups[1].Value);
+        jackSo.FindProperty("portId").intValue    = int.Parse(m.Groups[2].Value);
+        jackSo.FindProperty("isOutput").boolValue =
+            m.Groups[3].Value.Equals("Out", StringComparison.OrdinalIgnoreCase);
+        jackSo.ApplyModifiedProperties();
+
+        EditorUtility.SetDirty(t.gameObject);
+        Debug.Log($"[Socket Creator] Jack assigned on '{t.gameObject.name}': " +
+                  $"M{jack.moduleId} P{jack.portId} {(jack.isOutput ? "Out" : "In")}");
+        return;
     }
-}
+
+    // ── No name match: add Jack with default values and warn ──────────────
+    Jack fallback = obj.GetComponent<Jack>();
+    if (fallback == null)
+    {
+        Undo.RegisterCompleteObjectUndo(obj, "Add Jack Component");
+        fallback = obj.AddComponent<Jack>();
+    }
+
+    Debug.LogWarning($"[Socket Creator] '{obj.name}' has no matching name pattern. " +
+                     $"Jack added with defaults — set moduleId/portId/isOutput manually in Inspector.");
+}}

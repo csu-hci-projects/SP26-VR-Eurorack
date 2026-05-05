@@ -25,4 +25,23 @@ public class WireManager : MonoBehaviour {
 
         firstJack = null;
     }
+    void Awake()
+{
+    AuxSocketSlot.WireManager = this;
+}
+public void DisconnectJack(Jack jack)
+{
+    // If this jack was half of a pending pair, clear it
+    if (firstJack == jack)
+    {
+        firstJack = null;
+        return;
+    }
+
+    // Otherwise find and remove all connections involving this jack
+    if (jack.isOutput)
+        engine.connections.RemoveAll(c => c.fromModule == jack.moduleId && c.fromPort == jack.portId);
+    else
+        engine.connections.RemoveAll(c => c.toModule == jack.moduleId && c.toPort == jack.portId);
+}
 }
