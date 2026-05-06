@@ -12,6 +12,7 @@ public class PatchRouter : MonoBehaviour
     private Dictionary<string, float> audioValues = new();
     private Dictionary<string, string> parent = new();
     private HashSet<(string, string)> connections = new();
+    private Dictionary<string, HashSet<string>> adjacency = new();
 
     void Awake()
     {
@@ -23,7 +24,12 @@ public class PatchRouter : MonoBehaviour
         if (string.IsNullOrEmpty(slotA) || string.IsNullOrEmpty(slotB) || slotA == slotB)
             return;
 
-        connections.Add(NormalizePair(slotA, slotB));
+        var edge = NormalizePair(slotA, slotB);
+        connections.Add(edge);
+        EnsureAdjacent(slotA);
+        EnsureAdjacent(slotB);
+        adjacency[slotA].Add(slotB);
+        adjacency[slotB].Add(slotA);
         RebuildNetworks();
     }
 
@@ -32,7 +38,14 @@ public class PatchRouter : MonoBehaviour
         if (string.IsNullOrEmpty(slotA) || string.IsNullOrEmpty(slotB) || slotA == slotB)
             return;
 
-        connections.Remove(NormalizePair(slotA, slotB));
+        var edge = NormalizePair(slotA, slotB);
+        connections.Remove(edge);
+
+        if (adjacency.TryGetValue(slotA, out var neighborsA))
+            neighborsA.Remove(slotB);
+        if (adjacency.TryGetValue(slotB, out var neighborsB))
+            neighborsB.Remove(slotA);
+
         RebuildNetworks();
     }
 
@@ -81,6 +94,12 @@ public class PatchRouter : MonoBehaviour
     {
         if (!parent.ContainsKey(slotId))
             parent[slotId] = slotId;
+    }
+
+    private void EnsureAdjacent(string slotId)
+    {
+        if (!adjacency.ContainsKey(slotId))
+            adjacency[slotId] = new HashSet<string>();
     }
 
     private void Union(string a, string b)

@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 2
   isOutput: 0
 --- !u!1 &32422212 stripped
 GameObject:
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 2
   portId: 0
   isOutput: 0
 --- !u!1 &52632098 stripped
@@ -176,8 +176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 2
   isOutput: 0
 --- !u!1 &77466720 stripped
 GameObject:
@@ -196,9 +196,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 4
   portId: 0
-  isOutput: 0
+  isOutput: 1
 --- !u!4 &83751730 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -221,9 +221,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 3
+  isOutput: 1
 --- !u!1 &138340683 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4552367722391975135, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 3
   isOutput: 0
 --- !u!1 &143335595 stripped
 GameObject:
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 8
   portId: 0
   isOutput: 0
 --- !u!1 &157423443 stripped
@@ -281,9 +281,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 5
+  isOutput: 1
 --- !u!1 &194948184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1700457630333343158, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 3
   isOutput: 0
 --- !u!1 &196600632 stripped
 GameObject:
@@ -321,9 +321,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 6
   portId: 0
-  isOutput: 0
+  isOutput: 1
 --- !u!1 &200557959 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6747201299352558359, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 1
   isOutput: 0
 --- !u!1 &211710007 stripped
 GameObject:
@@ -361,8 +361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 3
   isOutput: 0
 --- !u!1 &227692493
 GameObject:
@@ -418,9 +418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 7
+  isOutput: 1
 --- !u!1 &275388263 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4209548586965310910, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -438,9 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 1
+  isOutput: 1
 --- !u!1 &327564808 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5115062352521460178, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -459,8 +459,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
-  isOutput: 0
+  portId: 5
+  isOutput: 1
 --- !u!1 &352827137 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8075635886200382719, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -478,8 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 2
+  portId: 1
   isOutput: 0
 --- !u!1 &369407135 stripped
 GameObject:
@@ -498,8 +498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &370633745 stripped
 GameObject:
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 8
   portId: 0
-  isOutput: 0
+  isOutput: 1
 --- !u!1 &383902629 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7065206572075677810, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -538,8 +538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 1
   isOutput: 0
 --- !u!1 &389035900 stripped
 GameObject:
@@ -558,8 +558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 1
   isOutput: 0
 --- !u!1 &425078260 stripped
 GameObject:
@@ -578,8 +578,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 1
   isOutput: 0
 --- !u!1 &457696240 stripped
 GameObject:
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 1
   isOutput: 0
 --- !u!1 &465010415 stripped
 GameObject:
@@ -618,8 +618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &482494663 stripped
 GameObject:
@@ -638,8 +638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &520474563 stripped
 GameObject:
@@ -658,8 +658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 8
   isOutput: 0
 --- !u!1 &532676744
 GameObject:
@@ -820,8 +820,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 2
   isOutput: 0
 --- !u!1 &584849331 stripped
 GameObject:
@@ -859,8 +859,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 4
   isOutput: 0
 --- !u!1 &672957667 stripped
 GameObject:
@@ -879,8 +879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 2
   isOutput: 0
 --- !u!1 &686481165 stripped
 GameObject:
@@ -900,7 +900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 2
   isOutput: 0
 --- !u!1 &697963606
 GameObject:
@@ -998,7 +998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 7
   portId: 0
   isOutput: 0
 --- !u!1 &716738301 stripped
@@ -1018,8 +1018,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 6
   isOutput: 0
 --- !u!1 &759394630
 GameObject:
@@ -1097,8 +1097,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 1
   isOutput: 0
 --- !u!1 &797470570 stripped
 GameObject:
@@ -1118,7 +1118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 4
   isOutput: 0
 --- !u!1 &818512215 stripped
 GameObject:
@@ -1137,8 +1137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 2
+  portId: 3
   isOutput: 0
 --- !u!1 &824492918 stripped
 GameObject:
@@ -1157,9 +1157,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 2
+  isOutput: 1
 --- !u!1 &835502218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4249242366624495267, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -1177,8 +1177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 6
+  portId: 4
   isOutput: 0
 --- !u!1 &838132760 stripped
 GameObject:
@@ -1197,8 +1197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 4
   isOutput: 0
 --- !u!1 &844366844 stripped
 GameObject:
@@ -1217,8 +1217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 3
   isOutput: 0
 --- !u!1 &877328036
 GameObject:
@@ -1350,9 +1350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 2
+  portId: 2
+  isOutput: 1
 --- !u!1 &904040869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2919432401555716254, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -1370,9 +1370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 1
+  isOutput: 1
 --- !u!1 &927672913 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2864201299071992262, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 4
   isOutput: 0
 --- !u!1 &936665018 stripped
 GameObject:
@@ -1411,7 +1411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 6
   isOutput: 0
 --- !u!1 &950714023 stripped
 GameObject:
@@ -1430,8 +1430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 8
+  portId: 1
   isOutput: 0
 --- !u!1 &972209079 stripped
 GameObject:
@@ -1450,8 +1450,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 2
   isOutput: 0
 --- !u!1 &984873748 stripped
 GameObject:
@@ -1470,8 +1470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 2
+  portId: 4
   isOutput: 0
 --- !u!1 &986962983 stripped
 GameObject:
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 2
   isOutput: 0
 --- !u!1 &1004570033
 GameObject:
@@ -1691,8 +1691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 6
+  portId: 5
   isOutput: 0
 --- !u!1 &1078002849 stripped
 GameObject:
@@ -1711,8 +1711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 2
+  portId: 1
   isOutput: 0
 --- !u!1 &1112961576 stripped
 GameObject:
@@ -1731,8 +1731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 7
   isOutput: 0
 --- !u!1 &1137616752 stripped
 GameObject:
@@ -1751,9 +1751,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 3
   portId: 0
-  isOutput: 0
+  isOutput: 1
 --- !u!1 &1165647571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,8 +1815,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 6
   isOutput: 0
 --- !u!1001 &1233639308
 PrefabInstance:
@@ -1977,9 +1977,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 6
+  isOutput: 1
 --- !u!1 &1268185670 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3059257077980108801, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -1997,8 +1997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &1272054533 stripped
 GameObject:
@@ -2017,9 +2017,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 5
+  isOutput: 1
 --- !u!1 &1276354807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,9 +2134,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 3
+  isOutput: 1
 --- !u!1 &1340713440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3580855325265955189, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2154,8 +2154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 7
   isOutput: 0
 --- !u!1 &1359460445 stripped
 GameObject:
@@ -2174,8 +2174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 6
+  portId: 2
   isOutput: 0
 --- !u!1 &1388235974 stripped
 GameObject:
@@ -2194,8 +2194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 6
+  portId: 3
   isOutput: 0
 --- !u!1 &1398956506 stripped
 GameObject:
@@ -2214,8 +2214,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 1
   isOutput: 0
 --- !u!1 &1418812261 stripped
 GameObject:
@@ -2234,8 +2234,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 2
   isOutput: 0
 --- !u!1 &1419288717 stripped
 GameObject:
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
+  moduleId: 5
   portId: 0
   isOutput: 0
 --- !u!1 &1429911077 stripped
@@ -2274,8 +2274,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 1
   isOutput: 0
 --- !u!1 &1439489093 stripped
 GameObject:
@@ -2294,8 +2294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 4
   isOutput: 0
 --- !u!1 &1440717079 stripped
 GameObject:
@@ -2314,8 +2314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 4
+  portId: 3
   isOutput: 0
 --- !u!1 &1494654774 stripped
 GameObject:
@@ -2334,9 +2334,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 1
+  isOutput: 1
 --- !u!1 &1502261688 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4312104361197319511, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2354,9 +2354,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 8
+  portId: 1
+  isOutput: 1
 --- !u!1 &1503724060 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6338142938837998875, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2374,9 +2374,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 5
+  portId: 1
+  isOutput: 1
 --- !u!1 &1511761216 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 307615700192282568, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2394,8 +2394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &1519482857 stripped
 GameObject:
@@ -2414,8 +2414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 8
   isOutput: 0
 --- !u!1 &1527672966 stripped
 GameObject:
@@ -2434,8 +2434,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 5
   isOutput: 0
 --- !u!1 &1547750633 stripped
 GameObject:
@@ -2454,9 +2454,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 3
+  portId: 1
+  isOutput: 1
 --- !u!1 &1548617386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7958551104079388066, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2474,9 +2474,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 2
+  isOutput: 1
 --- !u!1 &1591454988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 163289370788211427, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2494,8 +2494,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 2
   isOutput: 0
 --- !u!1 &1607814077 stripped
 GameObject:
@@ -2514,8 +2514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 3
   isOutput: 0
 --- !u!1 &1624780274 stripped
 GameObject:
@@ -2534,8 +2534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 2
+  portId: 5
   isOutput: 0
 --- !u!1 &1643252122 stripped
 GameObject:
@@ -2574,8 +2574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 1
   isOutput: 0
 --- !u!1001 &1683815613
 PrefabInstance:
@@ -2736,9 +2736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 1
+  isOutput: 1
 --- !u!1 &1770160232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6538322904247123727, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2756,8 +2756,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 3
   isOutput: 0
 --- !u!1 &1784491247 stripped
 GameObject:
@@ -2776,9 +2776,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
-  isOutput: 0
+  moduleId: 6
+  portId: 4
+  isOutput: 1
 --- !u!1 &1786164061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4311959825591575642, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -2796,8 +2796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 4
   isOutput: 0
 --- !u!1 &1802941917 stripped
 GameObject:
@@ -2816,8 +2816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 5
+  portId: 1
   isOutput: 0
 --- !u!1 &1829024668 stripped
 GameObject:
@@ -2837,7 +2837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 2
   isOutput: 0
 --- !u!1 &1837893903 stripped
 GameObject:
@@ -2856,8 +2856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 6
+  portId: 1
   isOutput: 0
 --- !u!1 &1844087234 stripped
 GameObject:
@@ -2877,7 +2877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
   moduleId: 0
-  portId: 0
+  portId: 2
   isOutput: 0
 --- !u!1 &1851081558 stripped
 GameObject:
@@ -2896,8 +2896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 8
   isOutput: 0
 --- !u!1001 &1856424678
 PrefabInstance:
@@ -3058,8 +3058,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 2
   isOutput: 0
 --- !u!1 &1897875003 stripped
 GameObject:
@@ -3078,8 +3078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 7
+  portId: 2
   isOutput: 0
 --- !u!1001 &1956614489
 PrefabInstance:
@@ -3351,8 +3351,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eeab9c92208ac34996d65435ac07170, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jack
-  moduleId: 0
-  portId: 0
+  moduleId: 3
+  portId: 5
   isOutput: 0
 --- !u!1 &1995340347 stripped
 GameObject:
@@ -3401,145 +3401,361 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 123033450287440875, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_SUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 163289370788211427, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV2_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 207150152510167378, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_08_IN
+      objectReference: {fileID: 0}
     - target: {fileID: 216518368100041545, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: ASDR_CV_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 292237482117202465, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_02_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 295137221133821157, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 307615700192282568, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RESET
+      objectReference: {fileID: 0}
+    - target: {fileID: 366812897477736013, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_FREQ2
+      objectReference: {fileID: 0}
+    - target: {fileID: 521861599171807597, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_06_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 541381026537940049, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_STEPS_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 567250852610411620, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_V/OCT
       objectReference: {fileID: 0}
     - target: {fileID: 624632776500942392, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: MIX_04_IN
       objectReference: {fileID: 0}
     - target: {fileID: 653592510930124509, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: VCF_FM
       objectReference: {fileID: 0}
     - target: {fileID: 674533704808733695, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      value: MIX_07_IN
       objectReference: {fileID: 0}
     - target: {fileID: 713618835162316199, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      value: OSC_SHAPE
       objectReference: {fileID: 0}
     - target: {fileID: 825438822020876275, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      value: SEQ_STEPS_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 825487940766628146, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV3_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 831456830595354998, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_T_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 832968188423876712, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_HICUT
       objectReference: {fileID: 0}
     - target: {fileID: 915845636132901033, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).026
+      value: MIX_02_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 935892236721262618, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_MODE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154722323598214635, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_03
       objectReference: {fileID: 0}
     - target: {fileID: 1188945576503539637, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      value: SEQ_RUN_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196730708190493157, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: AM_MONLEFT_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 1203437565824020488, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      value: MIX_03_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1270695138077136609, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_07
       objectReference: {fileID: 0}
     - target: {fileID: 1286343293083906464, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      value: OSC_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298301074783011292, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_RM
+      objectReference: {fileID: 0}
+    - target: {fileID: 1343584435951109976, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_RIGHT
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384790954057513766, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_DRIVE
       objectReference: {fileID: 0}
     - target: {fileID: 1384910132445570904, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).027
+      value: MIX_01_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471720447720044552, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_SHAPE_2
       objectReference: {fileID: 0}
     - target: {fileID: 1541044713366378944, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).029
+      value: MIX_03_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567688462762250473, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_CV_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571840786409564148, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_SHAPE
       objectReference: {fileID: 0}
     - target: {fileID: 1664331750280905780, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      value: SEQ_STEPS
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696908585467076145, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_SHAPE
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700457630333343158, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_FM
       objectReference: {fileID: 0}
     - target: {fileID: 1706828338547005923, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).028
+      value: MIX_04_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1767906120255009533, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_CV_01
       objectReference: {fileID: 0}
     - target: {fileID: 1794097245245756048, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).022
+      value: DRUM_OUT_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1808928761825511462, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RESET_IN
       objectReference: {fileID: 0}
     - target: {fileID: 1834921759581311468, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).030
+      value: MIX_R_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 1837877915039841175, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_02_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987768403597907081, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_MOD_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2048086668821636230, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: AM_LEFT_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 2088382375512512537, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CLK_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2088888884271419168, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).016
+      value: OSC_VOL
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129258434101027930, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_CV
+      objectReference: {fileID: 0}
+    - target: {fileID: 2186428469107190279, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_RES/BW
       objectReference: {fileID: 0}
     - target: {fileID: 2210397783172884820, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      value: ASDR_CV_02
       objectReference: {fileID: 0}
     - target: {fileID: 2248407517818271165, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: OSC_PW_2
       objectReference: {fileID: 0}
     - target: {fileID: 2266259067306937510, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      value: OSC_SHAPE_2
       objectReference: {fileID: 0}
     - target: {fileID: 2282795435506915781, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: AM_MONLEFT_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2321799965533910400, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV2_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2334175558094953909, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_SLP
       objectReference: {fileID: 0}
     - target: {fileID: 2489417375844752861, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).024
+      value: MIX_05_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2574199099835855231, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).020
+      value: SEQ_TEMPO
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607992464551456633, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_HZ
+      objectReference: {fileID: 0}
+    - target: {fileID: 2608184707261454726, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_01_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2650896360052989946, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).022
+      value: MIX_07_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2698756750451534302, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).019
+      value: DRUM_T_02
       objectReference: {fileID: 0}
     - target: {fileID: 2702020327717281202, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).009
+      value: SEQ_CLK_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2723396879989008837, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: ASDR_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864201299071992262, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_CV_04
       objectReference: {fileID: 0}
     - target: {fileID: 2908041784614461066, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: AM_RIGHT_IN
       objectReference: {fileID: 0}
     - target: {fileID: 2919076239287860669, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: DIS_MOD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919432401555716254, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RESET_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2977290874932100696, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_FREQ
+      objectReference: {fileID: 0}
+    - target: {fileID: 3059257077980108801, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RUN_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3065282419476213765, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_MOD1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3113791236592732641, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_TRIG_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 3127287742831148476, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      value: OSC_PW
       objectReference: {fileID: 0}
     - target: {fileID: 3148279441659352146, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      value: VCF_SLP
       objectReference: {fileID: 0}
     - target: {fileID: 3199860637802683273, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
       value: VCO_Module
       objectReference: {fileID: 0}
+    - target: {fileID: 3211998412740968662, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_FM
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212586439389342305, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_SUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 3232130549839859086, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_VOL
+      objectReference: {fileID: 0}
+    - target: {fileID: 3367263602333660288, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RUN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392909233804338505, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_LEFT
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462433235074702356, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_DEC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520109532293896251, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_MOD2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572872364501727872, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3580855325265955189, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_07_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 3607833268193894930, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_FM
+      objectReference: {fileID: 0}
     - target: {fileID: 3778112532092995814, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      value: VCF_R/BW
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849689653293976192, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_03
       objectReference: {fileID: 0}
     - target: {fileID: 3852724202519321453, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      value: DIS_MOD4
       objectReference: {fileID: 0}
     - target: {fileID: 3958458985292188278, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: DIS_MOD_3
       objectReference: {fileID: 0}
     - target: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3581,89 +3797,213 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4209548586965310910, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV1_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249242366624495267, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_T_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4311959825591575642, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_MOD4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4312104361197319511, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: AM_MONRIGHT_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4321839750478070853, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_FEEDBACK
+      objectReference: {fileID: 0}
     - target: {fileID: 4363815835114474802, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).025
+      value: DRUM_OUT_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4472837045848156631, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_06_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552367722391975135, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_03_IN
       objectReference: {fileID: 0}
     - target: {fileID: 4566414956911838855, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: AM_MONRIGHT_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4609232752703523058, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV1_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4616389836941162531, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_01
       objectReference: {fileID: 0}
     - target: {fileID: 4633373831160476258, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      value: SEQ_RESET
       objectReference: {fileID: 0}
     - target: {fileID: 4651648458094917034, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      value: DIS_MOD1
       objectReference: {fileID: 0}
     - target: {fileID: 4668866267022249326, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: VCF_V/OCT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4682787122881828089, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_PW
       objectReference: {fileID: 0}
     - target: {fileID: 4715085380801183532, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      value: OSC_V/OCT
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717978979609521787, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_03_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4722385024634476926, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_GAIN2
       objectReference: {fileID: 0}
     - target: {fileID: 4785628134871512397, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      value: MIX_01_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 4786288175500031440, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 4823266374833027218, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      value: DIS_RIGHT
       objectReference: {fileID: 0}
     - target: {fileID: 4934433202301431165, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: SEQ_CV3_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 5013729613534207894, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      value: SEQ_STEPS_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023563181811100067, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_CV_03
       objectReference: {fileID: 0}
     - target: {fileID: 5057608645006607583, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).008
+      value: SEQ_CLK_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5070341814606430038, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_BW
+      objectReference: {fileID: 0}
+    - target: {fileID: 5080720860867132664, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115062352521460178, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 5129028540240666637, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      value: ASDR_CV_01
       objectReference: {fileID: 0}
     - target: {fileID: 5133803234082423049, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: SEQ_TRIG_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140711748584070809, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_T_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5147263629612697004, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_PW_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5149407231401217827, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_T_02
       objectReference: {fileID: 0}
     - target: {fileID: 5165080953764537022, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      value: OSC_V/OCT_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166615832209004008, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_04_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202871833097520831, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_R
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225264418741609886, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_ATT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5246882670160645582, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_08_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252344053447579635, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_05_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261762717499600815, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_05_IN
       objectReference: {fileID: 0}
     - target: {fileID: 5266338585999888896, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).004
+      value: SEQ_TRIG_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5278412128137098432, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5280826735692299618, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CLK_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358591098279334580, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_LEFT2
       objectReference: {fileID: 0}
     - target: {fileID: 5360195406742145898, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      value: VCF_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5371583895358624330, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_GAIN
       objectReference: {fileID: 0}
     - target: {fileID: 5517867919702071688, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).020
+      value: DRUM_OUT_02
       objectReference: {fileID: 0}
     - target: {fileID: 5521287181285723353, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).026
+      value: DRUM_T_05
       objectReference: {fileID: 0}
     - target: {fileID: 5523818665519042638, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: VCF_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 5554856892631304579, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      value: VCF_CV
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571838867920704058, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: AM_KNOB_LEVEL
       objectReference: {fileID: 0}
     - target: {fileID: 5591171966531593600, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      value: ASDR_CV_03
       objectReference: {fileID: 0}
     - target: {fileID: 5614572267097629466, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -3671,143 +4011,319 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5679335952420192162, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).017
+      value: DRUM_OUT_03
       objectReference: {fileID: 0}
     - target: {fileID: 5712010575307629570, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      value: SEQ_CV3_IN
       objectReference: {fileID: 0}
     - target: {fileID: 5738059383206484678, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      value: MIX_05_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750248047215716867, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_VOL_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5797365284524174575, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_R_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 5812807936793309298, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).007
+      value: AM_LEFT_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835690977102653463, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_07_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5858666988413307079, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_PW
       objectReference: {fileID: 0}
     - target: {fileID: 5888305256149018188, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).014
+      value: SEQ_RESET_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 5935948617691994125, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      value: SEQ_CV1_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5959536619572644592, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990203111223936647, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_STEPS_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 5995669430950759680, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_STEPS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6037595028280464936, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_L
+      objectReference: {fileID: 0}
+    - target: {fileID: 6191357344882908513, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_HICUT2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6338142938837998875, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_RUN_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 6345767926130687420, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      value: SEQ_CLK
       objectReference: {fileID: 0}
     - target: {fileID: 6534591631455209603, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      value: OSC_SUB
+      objectReference: {fileID: 0}
+    - target: {fileID: 6538322904247123727, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CV3_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651263958340699519, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_01_IN
       objectReference: {fileID: 0}
     - target: {fileID: 6733929982265877448, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).012
+      value: OSC_VOL_2
       objectReference: {fileID: 0}
     - target: {fileID: 6745186115840549801, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).023
+      value: MIX_08_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747201299352558359, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_RM
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794717301028400318, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_REL
+      objectReference: {fileID: 0}
+    - target: {fileID: 6880193883489450816, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_04
       objectReference: {fileID: 0}
     - target: {fileID: 6882375860823420031, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).014
+      value: OSC_SYNC
       objectReference: {fileID: 0}
     - target: {fileID: 6935383294946961450, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).025
+      value: MIX_06_IN
       objectReference: {fileID: 0}
     - target: {fileID: 7017353364593814815, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).002
+      value: DIS_RIGHT2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7065206572075677810, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_RETRIG
       objectReference: {fileID: 0}
     - target: {fileID: 7152694986743823154, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).013
+      value: OSC_FM
       objectReference: {fileID: 0}
     - target: {fileID: 7227964502555639139, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      value: SEQ_RESET_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 7242056545977493169, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_PW_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317145282479442996, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_TRIG_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 7345378775703529965, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_L_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 7401707981793109047, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_CV
       objectReference: {fileID: 0}
     - target: {fileID: 7419957818613230325, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).027
+      value: DRUM_OUT_L
       objectReference: {fileID: 0}
     - target: {fileID: 7422978768452057646, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: SEQ_CV2_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 7471699958155491742, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7506694168272943440, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_CLK
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579708308997528645, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_05
       objectReference: {fileID: 0}
     - target: {fileID: 7657360516748424691, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).011
+      value: ASDR_GATE
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799016878681107375, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_SYNC
       objectReference: {fileID: 0}
     - target: {fileID: 7878960169093448993, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).009
+      value: MIX_06_IN
       objectReference: {fileID: 0}
     - target: {fileID: 7919231056038429091, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).023
+      value: DRUM_T_01
       objectReference: {fileID: 0}
     - target: {fileID: 7940210175842804459, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      value: OSC_RM
+      objectReference: {fileID: 0}
+    - target: {fileID: 7958551104079388066, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_OUT_02
       objectReference: {fileID: 0}
     - target: {fileID: 7960852681038025341, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).001
+      value: DIS_LEFT2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7984018816591252272, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_VOL
       objectReference: {fileID: 0}
     - target: {fileID: 8005546009039316605, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).028
+      value: DRUM_OUT_R
+      objectReference: {fileID: 0}
+    - target: {fileID: 8038411224095644368, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_V/OCT
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044351064095816399, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_VOL_2
       objectReference: {fileID: 0}
     - target: {fileID: 8055693295166610991, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).015
+      value: MIX_08_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8075635886200382719, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_R/BW
+      objectReference: {fileID: 0}
+    - target: {fileID: 8104526237635538159, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_SUS
+      objectReference: {fileID: 0}
+    - target: {fileID: 8168349231884888841, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_KNOB_SLOPE
       objectReference: {fileID: 0}
     - target: {fileID: 8317751006478865464, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      value: DIS_LEFT
       objectReference: {fileID: 0}
     - target: {fileID: 8408443135640318883, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).021
+      value: SEQ_RUN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8460848497903362447, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_RIGHT2
       objectReference: {fileID: 0}
     - target: {fileID: 8489936958964237759, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      value: SEQ_CV2_IN
       objectReference: {fileID: 0}
     - target: {fileID: 8493320562567427548, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).031
+      value: MIX_L_OUT
       objectReference: {fileID: 0}
     - target: {fileID: 8642997863606065813, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).018
+      value: DRUM_T_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673727373208342604, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: ASDR_GATE
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684014762154750724, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DIS_KNOB_BW2
       objectReference: {fileID: 0}
     - target: {fileID: 8717878152531804770, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).005
+      value: SEQ_CV1_IN
       objectReference: {fileID: 0}
     - target: {fileID: 8771519581329592767, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).021
+      value: DRUM_T_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804764993837047681, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: SEQ_TEMPO
       objectReference: {fileID: 0}
     - target: {fileID: 8858377703782272287, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).003
+      value: SEQ_RUN_OUT
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877862775878253399, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_KNOB_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 8885333844573756355, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_V/OCT_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8934318532422922086, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_MASTER
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966554288216472435, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: DRUM_T_03
       objectReference: {fileID: 0}
     - target: {fileID: 8976021410095632950, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).006
+      value: MIX_02_IN
       objectReference: {fileID: 0}
     - target: {fileID: 8989745685655614873, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).024
+      value: DRUM_OUT_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009577155227091154, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_KNOB_FM
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032881009527031531, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCF_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 9101443023967706432, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: MIX_04_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 9107584702170090723, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: AM_RIGHT_IN
+      objectReference: {fileID: 0}
+    - target: {fileID: 9138673256394313359, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: OSC_SHAPE_2
       objectReference: {fileID: 0}
     - target: {fileID: 9162588504646352676, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
-      value: SOCKET_MINIJACK 3.5(INSIDE).010
+      value: ASDR_RETRIG
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2730288398215175795, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
