@@ -840,7 +840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 284026f9288232d4fa0bb5ee2bfd42ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioOut_Module
-  engine: {fileID: 0}
+  engine: {fileID: 532676745}
   moduleId: 1
 --- !u!1 &595422541 stripped
 GameObject:
@@ -1031,6 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 759394632}
   - component: {fileID: 759394631}
+  - component: {fileID: 759394633}
   m_Layer: 0
   m_Name: WireManager
   m_TagString: Untagged
@@ -1050,7 +1051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544dd1fcc8f504146bf4603f251fafa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WireManager
-  engine: {fileID: 0}
+  engine: {fileID: 532676745}
 --- !u!4 &759394632
 Transform:
   m_ObjectHideFlags: 0
@@ -1066,6 +1067,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &759394633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759394630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9c57d37f5381248968bc1192e5fad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatchRouter
+  engine: {fileID: 532676745}
 --- !u!1 &774769622 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1767906120255009533, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
