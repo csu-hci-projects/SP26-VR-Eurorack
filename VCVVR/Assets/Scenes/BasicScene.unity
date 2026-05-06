@@ -3340,6 +3340,25 @@ MonoBehaviour:
   moduleId: 0
   portId: 0
   isOutput: 0
+--- !u!1 &1995340347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3199860637802683273, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1995340349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995340347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3c5c04c04f1ff42ac03af595355d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VCO_Module
+  engine: {fileID: 532676745}
+  moduleId: 0
 --- !u!1 &2059087251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7984018816591252272, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -3491,6 +3510,10 @@ PrefabInstance:
     - target: {fileID: 3148279441659352146, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
       value: SOCKET_MINIJACK 3.5(INSIDE).007
+      objectReference: {fileID: 0}
+    - target: {fileID: 3199860637802683273, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      propertyPath: m_Name
+      value: VCO_Module
       objectReference: {fileID: 0}
     - target: {fileID: 3778112532092995814, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
@@ -3772,7 +3795,8 @@ PrefabInstance:
       propertyPath: slotId
       value: SOCKET_MINIJACK 3.5(INSIDE).010
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2730288398215175795, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4106938374577395249, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -4061,6 +4085,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1987768403597907081, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 211710014}
+    - targetCorrespondingSourceObject: {fileID: 3199860637802683273, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1995340349}
   m_SourcePrefab: {fileID: 100100000, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
 --- !u!1 &4339716341543143847 stripped
 GameObject:

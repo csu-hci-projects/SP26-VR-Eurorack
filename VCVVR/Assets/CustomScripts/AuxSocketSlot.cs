@@ -57,21 +57,8 @@ public class AuxSocketSlot : MonoBehaviour
             Debug.Log($"[AuxSocketSlot] {slotId} ← Jack detected: " +
                       $"moduleId={jack.moduleId}, portId={jack.portId}, isOutput={jack.isOutput}");
             OnJackConnected?.Invoke(this, jack);
+            WireManager?.ClickJack(jack);         // ← this actually routes the signal
         }
-
-            if (jack != null)
-    {
-        ConnectedJack = jack;
-        OnJackConnected?.Invoke(this, jack);
-        WireManager?.ClickJack(jack);         // ← this actually routes the signal
-    }
-
-        if (ConnectedJack != null)
-{
-    OnJackDisconnected?.Invoke(this, ConnectedJack);
-    WireManager?.DisconnectJack(ConnectedJack);   // ← tears down the route
-    ConnectedJack = null;
-}
 
         Debug.Log($"{id.end} plug inserted into {slotId}");
     }
