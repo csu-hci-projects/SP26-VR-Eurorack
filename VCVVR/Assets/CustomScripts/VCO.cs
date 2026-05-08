@@ -7,9 +7,9 @@ public class VCO : MonoBehaviour
 
     void Update()
     {
-        float sample = Mathf.Sin(Time.time * frequency * 2f * Mathf.PI);
+        if (outputSlot == null || outputSlot.OccupiedBy == null) return;
 
-        if (outputSlot.OccupiedBy != null)
-            PatchRouter.Instance.SendValue(outputSlot.SlotId, sample);
+        float sample = Mathf.Sin(Time.time * frequency * 2f * Mathf.PI);
+        PatchRouter.Instance.SendValue(outputSlot.SlotId, sample);
     }
 }
