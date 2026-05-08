@@ -8,16 +8,16 @@ public class SliderReporter : MonoBehaviour
 
     [Header("Slide Limits (world units along slide axis)")]
     public float minZ = -0.05f;
-    public float maxZ =  0.05f;
+    public float maxZ = 0.05f;
 
     [Header("Output")]
-    public float Value01 { get; private set; }
+    public float Value01 { get; private set; } = 0.5f;
 
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grab;
 
-    private float   startHandProjected;      // hand pos projected onto slide axis (world)
-    private Vector3 startVisualWorldPos;     // visual world pos at grab time
-    private Vector3 slideAxisWorld;          // world-space slide direction
+    private float startHandProjected;
+    private Vector3 startVisualWorldPos;
+    private Vector3 slideAxisWorld;
 
     void Awake()
     {
@@ -31,14 +31,8 @@ public class SliderReporter : MonoBehaviour
     void OnGrab(SelectEnterEventArgs args)
     {
         var interactor = grab.interactorsSelecting[0];
-
-        // World-space axis the slider moves along (local Z of the visual)
         slideAxisWorld = sliderVisual.up;
-
-        // Project hand onto that axis
-        startHandProjected  = Vector3.Dot(interactor.transform.position, slideAxisWorld);
-
-        // Store visual's world position — no local space, no scale issues
+        startHandProjected = Vector3.Dot(interactor.transform.position, slideAxisWorld);
         startVisualWorldPos = sliderVisual.position;
     }
 
@@ -52,11 +46,8 @@ public class SliderReporter : MonoBehaviour
 
         float currentHandProjected = Vector3.Dot(interactor.transform.position, slideAxisWorld);
         float delta = currentHandProjected - startHandProjected;
-
-        // Clamp in world units relative to start
         float clampedDelta = Mathf.Clamp(delta, minZ, maxZ);
 
-        // Move visual in world space — completely bypasses scale/local space issues
         sliderVisual.position = startVisualWorldPos + slideAxisWorld * clampedDelta;
 
         Value01 = Mathf.InverseLerp(minZ, maxZ, clampedDelta);

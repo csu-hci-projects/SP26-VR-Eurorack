@@ -10,13 +10,18 @@ public class AuxCable : MonoBehaviour
 
     public void NotifyPlugged(AuxEnd end, AuxSocketSlot slot)
     {
+        Debug.Log($"[AuxCable] NotifyPlugged end={end} slot={slot?.SlotId}");
+
         if (end == AuxEnd.Left)
             leftSocket = slot;
         else
             rightSocket = slot;
 
         if (IsFullyPatched && PatchRouter.Instance != null)
+        {
+            Debug.Log($"[AuxCable] Fully patched {leftSocket.SlotId} -> {rightSocket.SlotId}");
             PatchRouter.Instance.ConnectSlots(leftSocket.SlotId, rightSocket.SlotId);
+        }
     }
 
     public void NotifyUnplugged(AuxEnd end)

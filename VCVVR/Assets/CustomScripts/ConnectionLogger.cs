@@ -16,16 +16,16 @@ public class ConnectionLogger : MonoBehaviour
 
     private void HandleConnected(AuxCable cable, AuxSocketSlot slot, AuxEnd end)
     {
+        if (slot == null) return;
         Debug.Log($"[PATCH] {end} plug connected to {slot.SlotId}");
 
-        if (cable.leftSocket != null && cable.rightSocket != null)
-        {
-            Debug.Log($"[PATCH COMPLETE] {cable.leftSocket.SlotId}  →  {cable.rightSocket.SlotId}");
-        }
+        if (cable != null && cable.leftSocket != null && cable.rightSocket != null)
+            Debug.Log($"[PATCH COMPLETE] {cable.leftSocket.SlotId} → {cable.rightSocket.SlotId}");
     }
 
     private void HandleDisconnected(AuxCable cable, AuxSocketSlot slot, AuxEnd end)
     {
+        if (slot == null) return;
         Debug.Log($"[UNPATCH] {end} plug removed from {slot.SlotId}");
     }
 }

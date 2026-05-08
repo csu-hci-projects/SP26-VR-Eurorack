@@ -2,17 +2,29 @@ using UnityEngine;
 
 public class AudioModule : MonoBehaviour
 {
-    public AuxSocketSlot inputSlot;
-    public AuxSocketSlot outputSlot;
-    public KnobReporter gainKnob;
+    [Header("Inputs")]
+    public AuxSocketSlot leftInSlot;
+    public AuxSocketSlot rightInSlot;
+
+    [Header("Outputs")]
+    public AuxSocketSlot monLeftOutSlot;
+    public AuxSocketSlot monRightOutSlot;
+
+    [Header("Knobs")]
+    public KnobReporter levelKnob;
 
     void Update()
     {
-        float input = PatchRouter.Instance.ReadValue(inputSlot.SlotId);
-        float gain = Mathf.Lerp(0f, 2f, gainKnob.Value01);
+        float gain = levelKnob != null ? Mathf.Lerp(0f, 2f, levelKnob.Value01) : 1f;
 
-        float outVal = input * gain;
+        float left  = leftInSlot  != null && leftInSlot.OccupiedBy  != null
+            ? PatchRouter.Instance.ReadValue(leftInSlot.SlotId)  * gain : 0f;
+        float right = rightInSlot != null && rightInSlot.OccupiedBy != null
+            ? PatchRouter.Instance.ReadValue(rightInSlot.SlotId) * gain : 0f;
 
-        PatchRouter.Instance.SendValue(outputSlot.SlotId, outVal);
+        if (monLeftOutSlot  != null && monLeftOutSlot.OccupiedBy  != null)
+            PatchRouter.Instance.SendValue(monLeftOutSlot.SlotId,  left);
+        if (monRightOutSlot != null && monRightOutSlot.OccupiedBy != null)
+            PatchRouter.Instance.SendValue(monRightOutSlot.SlotId, right);
     }
 }
