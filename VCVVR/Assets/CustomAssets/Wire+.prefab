@@ -560,7 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4423db1f5d92d44bd30bbec2335166, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AuxPlugEndId
-  end: 0
+  end: 1
   cable: {fileID: 2483255915521135127}
 --- !u!4 &7477267250596910633 stripped
 Transform:

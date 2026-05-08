@@ -130,5 +130,9 @@ public class VCO : MonoBehaviour
 
         if (out2Slot != null && out2Slot.OccupiedBy != null)
             PatchRouter.Instance.SendValue(out2Slot.SlotId, output2);
+
+        // 🔊 AUDIO OUTPUT → write into the rolling buffer
+        AudioBus.vcoBuffer[AudioBus.writeIndex] = output;
+        AudioBus.writeIndex = (AudioBus.writeIndex + 1) % AudioBus.vcoBuffer.Length;
     }
 }
