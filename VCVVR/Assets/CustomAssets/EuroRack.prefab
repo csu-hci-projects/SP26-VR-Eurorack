@@ -905,6 +905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d9c57d37f5381248968bc1192e5fad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PatchRouter
+  engine: {fileID: 0}
 --- !u!1 &3462433235074702356
 GameObject:
   m_ObjectHideFlags: 0
@@ -13949,6 +13950,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 354651899519818747, guid: e3b60e4991b6c174c8824632581ba082, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 640822290961021604}
     - targetCorrespondingSourceObject: {fileID: 4220919923604318378, guid: e3b60e4991b6c174c8824632581ba082, type: 3}
       insertIndex: -1
       addedObject: {fileID: 980872691410632123}
@@ -19767,6 +19771,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 408459544305252651, guid: e3b60e4991b6c174c8824632581ba082, type: 3}
   m_PrefabInstance: {fileID: 7781006681970449519}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8002978296834934676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 354651899519818747, guid: e3b60e4991b6c174c8824632581ba082, type: 3}
+  m_PrefabInstance: {fileID: 7781006681970449519}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &640822290961021604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8002978296834934676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4596f180fa594a41ab07b5bc8880e05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Seq8
+  clockIn: {fileID: 0}
+  resetIn: {fileID: 0}
+  cvOut: {fileID: 0}
+  gateOut: {fileID: 0}
+  stepCV:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stepGate: 0000000000000000
 --- !u!4 &8436369195019722923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2229195296904641732, guid: e3b60e4991b6c174c8824632581ba082, type: 3}

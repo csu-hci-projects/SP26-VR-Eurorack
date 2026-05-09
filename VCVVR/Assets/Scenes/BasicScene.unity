@@ -3129,17 +3129,6 @@ MonoBehaviour:
   moduleId: 5
   portId: 8
   isOutput: 0
---- !u!114 &1519482868 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5133803234082423049, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
-  m_PrefabInstance: {fileID: 4339716341543143846}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519482857}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f8bcb2cefc47214ba9d90a9a1eec2b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AuxSocketSlot
 --- !u!1 &1527672966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5252344053447579635, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
@@ -3460,9 +3449,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Seq8
   clockIn: {fileID: 1418812272}
   resetIn: {fileID: 1511761227}
-  cvOut: {fileID: 0}
-  gateOut: {fileID: 1519482868}
-  stepCV:
+  cvOut1: {fileID: 0}
+  cvOut2: {fileID: 0}
+  cvOut3: {fileID: 0}
+  trigOut: {fileID: 0}
+  stepCV1:
+  - {fileID: 4339716341543143856}
+  - {fileID: 4339716341543143855}
+  - {fileID: 4339716341543143854}
+  - {fileID: 4339716341543143853}
+  - {fileID: 4339716341543143848}
+  - {fileID: 4339716341543143849}
+  - {fileID: 4339716341543143851}
+  - {fileID: 4339716341543143852}
+  stepCV2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stepCV3:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -4255,7 +4264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 163289370788211427, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV2_IN
+      value: SEQ_CV2
       objectReference: {fileID: 0}
     - target: {fileID: 207150152510167378, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4287,7 +4296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 541381026537940049, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_STEPS_OUT
+      value: SEQ_STEP_5
       objectReference: {fileID: 0}
     - target: {fileID: 567250852610411620, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4315,7 +4324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 825487940766628146, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV3_OUT
+      value: SEQ_STEP_3
       objectReference: {fileID: 0}
     - target: {fileID: 831456830595354998, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4415,7 +4424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1808928761825511462, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_RESET_IN
+      value: SEQ_RESET
       objectReference: {fileID: 0}
     - target: {fileID: 1834921759581311468, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
@@ -4435,7 +4444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2088382375512512537, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CLK_IN
+      value: SEQ_CLK
       objectReference: {fileID: 0}
     - target: {fileID: 2088888884271419168, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
@@ -4467,7 +4476,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2321799965533910400, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV2_OUT
+      value: SEQ_STEP_2
       objectReference: {fileID: 0}
     - target: {fileID: 2322293562506539723, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: Loop
@@ -4531,7 +4540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2919432401555716254, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_RESET_OUT
+      value: SEQ_STEP_8
       objectReference: {fileID: 0}
     - target: {fileID: 2977290874932100696, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4539,7 +4548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3059257077980108801, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_RUN_IN
+      value: SEQ_RUN
       objectReference: {fileID: 0}
     - target: {fileID: 3065282419476213765, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4547,7 +4556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3113791236592732641, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_TRIG_OUT
+      value: SEQ_STEP_4
       objectReference: {fileID: 0}
     - target: {fileID: 3127287742831148476, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
@@ -4663,7 +4672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4209548586965310910, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV1_OUT
+      value: SEQ_STEP_1
       objectReference: {fileID: 0}
     - target: {fileID: 4249242366624495267, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4699,7 +4708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4609232752703523058, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV1_IN
+      value: SEQ_CV1
       objectReference: {fileID: 0}
     - target: {fileID: 4616389836941162531, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4831,7 +4840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5280826735692299618, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CLK_OUT
+      value: SEQ_STEP_6
       objectReference: {fileID: 0}
     - target: {fileID: 5358591098279334580, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4919,7 +4928,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5990203111223936647, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_STEPS_IN
+      value: SEQ_STEPS
       objectReference: {fileID: 0}
     - target: {fileID: 5995669430950759680, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -4935,7 +4944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6338142938837998875, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_RUN_OUT
+      value: SEQ_STEP_7
       objectReference: {fileID: 0}
     - target: {fileID: 6345767926130687420, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: slotId
@@ -4947,7 +4956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6538322904247123727, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_CV3_IN
+      value: SEQ_CV3
       objectReference: {fileID: 0}
     - target: {fileID: 6651263958340699519, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -5003,7 +5012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7317145282479442996, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
-      value: SEQ_TRIG_IN
+      value: SEQ_TRIG
       objectReference: {fileID: 0}
     - target: {fileID: 7345378775703529965, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
       propertyPath: m_Name
@@ -5191,6 +5200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2730288398215175795, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+    - {fileID: 640822290961021604, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -5497,6 +5507,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3145780379599738021, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
   m_PrefabInstance: {fileID: 4339716341543143846}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4339716341543143848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5739344980721132491, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143849 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8044372388522956202, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
 --- !u!114 &4339716341543143850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5533,6 +5565,72 @@ MonoBehaviour:
   pw2Knob: {fileID: 2087896948}
   vol2Knob: {fileID: 1962326900}
   baseFrequency: 440
+--- !u!114 &4339716341543143851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6226984669236636641, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 73699406034929448, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4362257549029009552, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2472944741228600796, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143855 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3350532508974787283, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
+--- !u!114 &4339716341543143856 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2658857644360723319, guid: cd5569b56709b58448412bb323a09ea6, type: 3}
+  m_PrefabInstance: {fileID: 4339716341543143846}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70746f0555699ac48a90ce750d13ee43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KnobReporter
 --- !u!1001 &5695327540633410367
 PrefabInstance:
   m_ObjectHideFlags: 0
