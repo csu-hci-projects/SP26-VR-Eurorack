@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 using System;
 using System.Text.RegularExpressions;
+using Unity.Mathematics;
 
 public class AuxSocketSlot : MonoBehaviour
 {
@@ -19,15 +20,16 @@ public class AuxSocketSlot : MonoBehaviour
     private static readonly Regex JackNamePattern =
         new Regex(@"Jack_M(\d+)_P(\d+)_(In|Out)", RegexOptions.IgnoreCase);
 
-    void Awake()
-    {
-        socket = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>();
-        if (socket.attachTransform != null)
-            socket.attachTransform.localRotation = Quaternion.Euler(0, 0, 0);
+void Awake()
+{
+    socket = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactors.XRSocketInteractor>();
 
-        socket.selectEntered.AddListener(OnSelectEntered);
-        socket.selectExited.AddListener(OnSelectExited);
-    }
+    // Removed: do NOT touch attachTransform at runtime
+    // The editor tool (AuxSocketSetup) sets this up correctly in the scene
+
+    socket.selectEntered.AddListener(OnSelectEntered);
+    socket.selectExited.AddListener(OnSelectExited);
+}
 
     private void OnSelectEntered(SelectEnterEventArgs args)
     {
