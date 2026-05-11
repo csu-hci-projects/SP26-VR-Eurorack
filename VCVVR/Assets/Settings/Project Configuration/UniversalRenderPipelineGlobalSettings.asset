@@ -29,6 +29,7 @@ MonoBehaviour:
   m_StripUnusedVariants: 1
   m_StripScreenCoordOverrideVariants: 1
   supportRuntimeDebugDisplay: 0
+  m_EnableRenderGraph: 0
   m_Settings:
     m_SettingsList:
       m_List:
@@ -68,7 +69,21 @@ MonoBehaviour:
       - rid: 5806318128449454092
       - rid: 198436094827298816
     m_RuntimeSettings:
-      m_List: []
+      m_List:
+      - rid: 1876391467148115968
+      - rid: 1876391467148115969
+      - rid: 1876391467148115970
+      - rid: 1876391467148115972
+      - rid: 1876391467148115973
+      - rid: 1876391467148115976
+      - rid: 1876391467148115978
+      - rid: 1876391467148115986
+      - rid: 1876391467148115987
+      - rid: 1876391467148115988
+      - rid: 5806318128449454082
+      - rid: 5806318128449454085
+      - rid: 5806318128449454090
+      - rid: 5806318128449454092
   m_AssetVersion: 10
   m_ObsoleteDefaultVolumeProfile: {fileID: 0}
   m_RenderingLayerNames:
@@ -99,6 +114,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 198436094827298816
       type: {class: WorldRenderPipelineResources, ns: UnityEngine.PathTracing.Core, asm: Unity.PathTracing.Runtime}
       data:
@@ -215,6 +232,7 @@ MonoBehaviour:
       type: {class: RenderGraphSettings, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
         m_Version: 0
+        m_EnableRenderCompatibilityMode: 0
     - rid: 1876391467148115969
       type: {class: UniversalRenderPipelineRuntimeXRResources, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.Runtime}
       data:
