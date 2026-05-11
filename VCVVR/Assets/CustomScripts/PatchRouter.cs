@@ -6,7 +6,6 @@ public class PatchRouter : MonoBehaviour
 {
     public static PatchRouter Instance;
 
-    // Wire this in the Inspector to your ModularEngine GameObject
     public ModularEngine engine;
 
     private Dictionary<string, float> audioValues = new();
@@ -24,6 +23,8 @@ public class PatchRouter : MonoBehaviour
         if (string.IsNullOrEmpty(slotA) || string.IsNullOrEmpty(slotB) || slotA == slotB)
             return;
 
+        Debug.Log($"[PatchRouter] ConnectSlots {slotA} <-> {slotB}");
+
         var edge = NormalizePair(slotA, slotB);
         connections.Add(edge);
         EnsureAdjacent(slotA);
@@ -31,6 +32,8 @@ public class PatchRouter : MonoBehaviour
         adjacency[slotA].Add(slotB);
         adjacency[slotB].Add(slotA);
         RebuildNetworks();
+
+        Debug.Log($"[PatchRouter] After connect: root({slotA})={GetRoot(slotA)} root({slotB})={GetRoot(slotB)}");
     }
 
     public void DisconnectSlots(string slotA, string slotB)
@@ -54,11 +57,10 @@ public class PatchRouter : MonoBehaviour
         string root = GetRoot(slotId);
         audioValues[root] = value;
 
-        // Bridge into DSP engine — slotId drives known parameters
         if (engine == null) return;
         switch (slotId)
         {
-            case "VCO_FREQ": engine.SetVCOFreq(value * 2000f + 20f); break; // 0‑1 → 20‑2020 Hz
+            case "VCO_FREQ": engine.SetVCOFreq(value * 2000f + 20f); break;
             case "VCO_PW":   engine.SetVCOPW(value);                 break;
             case "OUT_VOL":  engine.SetAudioVolume(value);            break;
         }
@@ -70,14 +72,8 @@ public class PatchRouter : MonoBehaviour
         return audioValues.TryGetValue(root, out float v) ? v : 0f;
     }
 
-    private (string, string) NormalizePair(string slotA, string slotB)
-    {
-        return string.Compare(slotA, slotB, StringComparison.Ordinal) <= 0
-            ? (slotA, slotB)
-            : (slotB, slotA);
-    }
-
-    private string GetRoot(string slotId)
+    // Public so Mixbus can check which network a slot belongs to
+    public string GetRoot(string slotId)
     {
         if (!parent.TryGetValue(slotId, out string root))
             return slotId;
@@ -88,6 +84,13 @@ public class PatchRouter : MonoBehaviour
         root = GetRoot(root);
         parent[slotId] = root;
         return root;
+    }
+
+    private (string, string) NormalizePair(string slotA, string slotB)
+    {
+        return string.Compare(slotA, slotB, StringComparison.Ordinal) <= 0
+            ? (slotA, slotB)
+            : (slotB, slotA);
     }
 
     private void EnsureSlot(string slotId)
